@@ -40,9 +40,9 @@
                 <div class="form-group col-md-3">
                 <label for="inputState">Giới tính</label>
                 <select v-model="information.gender" id="inputState" class="form-control">
-                    <option value="1">Nam</option>
-                    <option value="2">Nữ</option>
-                    <option value="3">Khác</option>
+                    <option value="true">Nam</option>
+                    <option value="false">Nữ</option>
+        
                 </select>
                 </div>
                 <div class="form-group col-md-3">
