@@ -11,7 +11,7 @@
 import Main from './components/main/Main.vue'
 import Header from './components/header/Header.vue'
 import Footer from './components/footer/Footer.vue'
-import {mapGetters} from 'vuex'
+import {mapGetters,mapActions} from 'vuex'
 
 
 
@@ -24,11 +24,17 @@ export default {
   computed : {
     ...mapGetters(['StateUser']),
   },
+  methods: {
+    ...mapActions(['GetPosts'])
+  },
   components :{
     Main,
     Footer,
     Header,
     
+  },
+  mounted() {
+    this.GetPosts()
   },
   watch : {
     StateUser() {
