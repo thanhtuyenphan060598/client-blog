@@ -21,9 +21,7 @@ export default {
       
     }
   },
-   mounted() {
-    this.GetPosts()
-  },
+  
   methods: {
     ...mapActions(['GetPosts'])
   },
@@ -32,6 +30,9 @@ export default {
     Footer,
     Header,
     
+  },
+   mounted() {
+    this.GetPosts()
   },
  
 }
