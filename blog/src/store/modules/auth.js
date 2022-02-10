@@ -30,7 +30,6 @@ const actions = {
      )
        
        await commit('setPosts', response.data.articles)
-       this.$router.push({name:'listpost'})
     },
 };
 const mutations = {
