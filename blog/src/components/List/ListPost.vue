@@ -45,7 +45,7 @@
 
 <script>
 import Post from '../List/Post.vue'
-import {mapActions, mapGetters} from 'vuex'
+import { mapGetters} from 'vuex'
 
 export default {
     data() {
@@ -64,7 +64,6 @@ export default {
     },
 //=========================================================
      methods: {
-       ...mapActions(['GetPosts']),
       // Phân trang cho bài viết
       clickCallback (pageNum) {
       window.location.href = window.location.href + '#'
@@ -131,9 +130,6 @@ export default {
   },
 //========================================================= 
  // Trước khi components được tạo gọi hàm
-  beforeCreate() {
-      this.GetPosts
-  },
 //=========================================================
   // Sau khi components đã được hiển thị gọi hàm
   mounted() {
