@@ -28,8 +28,9 @@ const actions = {
          } 
        }
      )
-        
+       
        await commit('setPosts', response.data.articles)
+       await window.location.replace('/newest')
     },
 };
 const mutations = {
