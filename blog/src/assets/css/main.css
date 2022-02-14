@@ -750,11 +750,6 @@
     width: 100% !important;
     padding: 10px 10px !important;
   }
-  .vue-avatar--wrapper {
-    width: 30px !important;
-    height: 30px !important;
-    font : 16px / 30px Helvetica, Arial, sans-serif !important;
-  }
   .word-break,.post-detail {
     margin-right: 0 !important;
   }
