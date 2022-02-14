@@ -772,4 +772,7 @@
   .text-contact-post {
     padding : 0px 0px !important;
   }
+  .mb-contents {
+    display: none !important;
+  }
 }
