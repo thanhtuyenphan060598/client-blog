@@ -27,7 +27,7 @@
                 itemscope itemtype="http://schema.org/Article"
                 style="height:auto !important;"
                 >
-                    <div class="d-flex justify-content-between mb-5">
+                    <div class="header-article d-flex justify-content-between mb-5">
                         <div>
                             <span class="text-info mr-2">{{articleShow.user.name}}</span>
                             <span class="text-muted mr-4">{{articleShow.user.email}}</span>
