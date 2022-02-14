@@ -15,9 +15,9 @@
                         
                        
                     </ul>
-                    <span class="search-mobile" type="button"><i class="fa fa-search"></i></span>
+                    <span @click="showSearch()" class="search-mobile" type="button"><i class="fa fa-search"></i></span>
                 
-                    <div class="topnav search-container">
+                    <div class="topnav search-container" ref="searchToggle">
                         
                             <input type="text" v-model="search" placeholder="Search.." name="search">
                             <button @click="searchPost()" type="button"><i class="fa fa-search"></i></button>
@@ -98,6 +98,10 @@ export default {
   },
 //=========================================================
   methods: {
+    showSearch() {
+        let search = this.$refs.searchToggle
+        search.style.display = 'block'
+    },
     //
     checkUser() {
         let token = window.localStorage.getItem('token')

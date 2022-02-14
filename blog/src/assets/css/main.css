@@ -691,6 +691,14 @@
 .card {
   height: 100% !important;
 }
+@keyframes search {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
 
 
 @media (max-width: 740px) {
@@ -707,8 +715,9 @@
     position: absolute;
     top: 54px;
     margin: 0px 0px 0px -50px;
+    animation : search ease .3s;
   }
   .topnav input[type=text] {
-    padding: 8px 155px 5px 38px;
+    padding: 8px 153px 5px 38px;
   }
 }
