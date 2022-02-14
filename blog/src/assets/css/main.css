@@ -706,7 +706,7 @@
 
 @media (max-width: 740px) {
 
-  .main-menu,.search-container,.icon-search,
+  .main-menu,.icon-search,
   .votes,.hidden-md-down,.post-new__left,.post-contact-mobile {
     display: none !important;
   }
@@ -714,6 +714,7 @@
     display:inline-block;
   }
   .topnav.search-container {
+    display: none;
     position: absolute;
     top: 56px;
     margin: 0px 0px 0px -50px;
