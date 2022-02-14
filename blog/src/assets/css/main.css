@@ -116,6 +116,9 @@
   }
 
   /* Header */
+  .search-mobile {
+    display : none;
+  }
   .main-menu {
     display: flex;
     align-items: center;
@@ -698,8 +701,5 @@
   }
   .search-mobile {
     display:inline-block;
-  }
-  .fixed-top {
-    position:initial
-  }
+  } 
 }
