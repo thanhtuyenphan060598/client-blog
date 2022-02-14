@@ -725,4 +725,20 @@
   .text-search {
     width: 100%;
   }
+  .login-mobile,.register-mobile {
+    width: 75%;
+  }
+  .categories-list {
+    overflow: auto;
+  }
+  .w-100 {
+    width: 175% ;
+  }
+  .categories-mobile {
+    flex-wrap: nowrap ;
+  }
+  .categories-mobile > a {
+    padding-right: 20px;
+  }
+
 }

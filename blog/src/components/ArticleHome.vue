@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="bg-dark py-md-1 py-5">
-            <div class="container">
+            <div class="container categories-list">
                 <div class="w-100 d-flex justify-content-between">
-                    <ul class="flex-grow-1 flex-wrap d-block pt-3 py-3 text-white d-flex align-items-center justify-content-between list-unstyled">
+                    <ul class="categories-mobile flex-grow-1 flex-wrap d-block pt-3 py-3 text-white d-flex align-items-center justify-content-between list-unstyled">
                         <router-link 
                         :to="{name:'listpost'}" 
                         class="text-warning nav-article position-relative"

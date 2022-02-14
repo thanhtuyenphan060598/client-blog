@@ -1,6 +1,6 @@
 <template>
     <div 
-    class="container w-25 bg-light pt-4 mt-5 px-4 rounded py-5 my-5 "
+    class="container w-25 bg-light pt-4 mt-5 px-4 rounded py-5 my-5 login-mobile"
     style="box-shadow:0px 0px 10px gray"
     >
             <form @submit.prevent="login()">
