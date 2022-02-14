@@ -706,8 +706,9 @@
 
 @media (max-width: 740px) {
 
-  .main-menu,.search-container,.icon-search {
-    display: none;
+  .main-menu,.search-container,.icon-search,
+  .votes,.hidden-md-down,.post-new__left,.post-contact-mobile {
+    display: none !important;
   }
   .search-mobile,.text-search {
     display:inline-block;
@@ -731,8 +732,8 @@
   .wrap-categories {
     padding: 1rem 0rem !important;
   }
-  .categories-list {
-    overflow: auto;
+  .categories-list,.tags {
+    overflow: auto !important;
   }
   .categories-list__mobile {
     width: 200% !important;
@@ -743,9 +744,6 @@
   .categories-mobile > a {
     padding-right: 20px;
 
-  }
-  .hidden-md-down {
-    display: none !important;
   }
   .list-post-mobile {
     width: 100% !important;
@@ -758,8 +756,5 @@
   }
   .word-break {
     margin-right: 0 !important;
-  }
-  .tags {
-    overflow: auto !important;
   }
 }
