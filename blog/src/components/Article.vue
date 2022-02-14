@@ -260,7 +260,7 @@ export default {
         },
  //==============================================================
         removeClass() {
-            let screenMobile = screen.width
+            let screenMobile = window.screen.width
             console.log(screenMobile)
             let elementRow =  this.$refs.selectRow
             if(screenMobile <= 740) {
