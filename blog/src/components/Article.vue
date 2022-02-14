@@ -261,6 +261,7 @@ export default {
  //==============================================================
         removeClass() {
             let screenMobile = screen.width
+            console.log(screenMobile)
             let elementRow =  this.$refs.selectRow
             if(screenMobile <= 740) {
                 elementRow.classList.removeClass('row')
