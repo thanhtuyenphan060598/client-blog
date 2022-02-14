@@ -44,10 +44,10 @@
             text-decoration:none;
             "
             > Tóm tắt nội dung : </a>
-            <div class="mb-contents">
+            <!-- <div class="mb-contents">
                <p>{{summary}}<span class="text-muted">.....</span>
                </p>
-            </div>
+            </div> -->
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex align-items-center">
                     <div class="starts">
@@ -98,7 +98,7 @@ export default {
         //=========================================================
         // Tóm tắt nội dung bài viết
         summary() {
-            let content = this.item.content.slice(0,1000)
+            let content = this.item.content.slice(0,700)
             let convertContent = convert(content)
             return convertContent
         },
