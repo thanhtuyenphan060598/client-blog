@@ -98,7 +98,7 @@ export default {
         //=========================================================
         // Tóm tắt nội dung bài viết
         summary() {
-            let content = this.item.content.slice(0,700)
+            let content = this.item.content.slice(0,900)
             let convertContent = convert(content)
             return convertContent
         },

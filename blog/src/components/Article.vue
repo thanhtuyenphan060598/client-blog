@@ -11,9 +11,8 @@
                 position : relative !important;
         "
         >
-            <div class="row" 
-            style="
-            height:auto !important;">
+            <div class="row" ref="selectRow" 
+            style="height:auto !important;">
                 <div class="hidden-md-down post-action ml-auto pr-4">
                     <div class="post-actions d-flex post-action__fixed flex-column align-items-center mx-auto">
                         <div class=" votes votes--side post-actions__vote mb-1 text-center">
@@ -258,7 +257,15 @@ export default {
              if(!this.isLoggedIn) {
                 this.showLogin = true
             }
-        }
+        },
+ //==============================================================
+        removeClass() {
+            let screenMobile = screen.width
+            let elementRow =  this.$refs.selectRow
+            if(screenMobile <= 740) {
+                elementRow.classList.removeClass('row')
+            }
+        }       
     
     },
 //=========================================================
@@ -266,6 +273,7 @@ export default {
         this.getArticle()
         this.getRate()
         this.checkUserLike()
+        this.removeClass()
     },
     watch: {
         articleShow() {
