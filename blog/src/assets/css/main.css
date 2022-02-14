@@ -707,19 +707,19 @@
 @media (max-width: 740px) {
 
   .main-menu,.search-container,.icon-search {
-    display: none !important;
+    display: none ;
   }
   .search-mobile,.text-search {
-    display:inline-block !important;
+    display:inline-block ;
   }
   .topnav.search-container {
     position: absolute;
     top: 56px;
-    margin: 0px 0px 0px -50px !important;
+    margin: 0px 0px 0px -50px ;
     animation : search ease .3s;
   }
   .topnav input[type=text] {
-    padding: 8px 153px 5px 38px !important;
+    padding: 8px 153px 5px 38px;
     width: 100% !important;
   }
   .text-search {
