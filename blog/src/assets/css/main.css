@@ -735,10 +735,10 @@
     overflow: auto;
   }
   .categories-list__mobile {
-    width: 175%;
+    width: 175% !important;
   }
   .categories-mobile {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
   }
   .categories-mobile > a {
     padding-right: 20px;
