@@ -720,5 +720,9 @@
   }
   .topnav input[type=text] {
     padding: 8px 153px 5px 38px;
+    width: 100%;
+  }
+  .text-search {
+    width: 100%;
   }
 }
