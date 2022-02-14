@@ -758,4 +758,7 @@
   .word-break {
     margin-right: 0 !important;
   }
+  .tags {
+    overflow: auto;
+  }
 }
