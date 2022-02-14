@@ -744,6 +744,18 @@
     padding-right: 20px;
 
   }
-  
-
+  .hidden-md-down {
+    display: none !important;
+  }
+  .list-post-mobile {
+    width: 100% !important;
+  }
+  .vue-avatar--wrapper {
+    width: 30px !important;
+    height: 30px !important;
+    font : 16px / 30px Helvetica, Arial, sans-serif !important;
+  }
+  .word-break {
+    margin-right: 0 !important;
+  }
 }

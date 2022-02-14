@@ -48,7 +48,7 @@
         </div>
         <div class="container pt-3 ">
             <div class="d-flex justify-content-between">
-                <div class="bg-white" style="width:73%;">
+                <div class="bg-white list-post-mobile" style="width:73%;" >
                     <router-view></router-view>
                 </div>
                 <div class="hidden-md-down " style="width:25%">

@@ -4,8 +4,7 @@
             class="mr-2"
             style="width:40px !important;
             height:40px !important;
-            font-size:15px !important;
-            line-height:40px !important;
+            font: 19px / 40px Helvetica, Arial, sans-serif !important;
             display:inline-block;"
             :username="userName">
         </avatar>
