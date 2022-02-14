@@ -116,9 +116,6 @@
   }
 
   /* Header */
-  .search-mobile {
-    display : none;
-  }
   .main-menu {
     display: flex;
     align-items: center;
@@ -690,16 +687,4 @@
 }
 .card {
   height: 100% !important;
-}
-
-@media (max-width: 740px) {
-  .main-menu {
-    display: none;
-  }
-  .search-container {
-    display: none;
-  }
-  .search-mobile {
-    display:inline-block;
-  } 
 }
