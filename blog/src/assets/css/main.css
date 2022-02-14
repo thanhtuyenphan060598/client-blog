@@ -726,7 +726,7 @@
     width: 100%;
   }
   .login-mobile,.register-mobile {
-    width: 75%;
+    width: 75% !important;
   }
   .wrap-categories {
     padding: 1rem 0rem !important;
