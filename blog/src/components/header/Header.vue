@@ -15,8 +15,8 @@
                         
                        
                     </ul>
+                    <span @click="searchPost()" type="button"><i class="fa fa-search"></i><span/>
                     <div class="topnav search-container">
-                            <span @click="searchPost()" type="button"><i class="fa fa-search"></i><span/>
                             <input type="text" v-model="search" placeholder="Search.." name="search">
                             <button @click="searchPost()" type="button"><i class="fa fa-search"></i></button>
                         
