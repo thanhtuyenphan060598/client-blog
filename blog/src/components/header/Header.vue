@@ -31,7 +31,7 @@
                                 <avatar
                                 style="width:30px;
                                 height:30px;
-                                font: 15px / 33px Helvetica, Arial, sans-serif !important;;
+                                font: 15px / 33px Helvetica, Arial, sans-serif;
                                 display:inline-block;
                                 "
                                  :username="StateUser.name"></avatar>

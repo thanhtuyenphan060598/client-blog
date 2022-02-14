@@ -2,9 +2,9 @@
     <div class=" post-feed-item d-flex mt-2">
         <avatar
             class="mr-2"
-            style="width:40px !important;
-            height:40px !important;
-            font: 19px / 40px Helvetica, Arial, sans-serif !important;
+            style="width:40px ;
+            height:40px;
+            font: 19px / 40px Helvetica, Arial, sans-serif;
             display:inline-block;"
             :username="userName">
         </avatar>
