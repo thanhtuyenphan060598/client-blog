@@ -116,6 +116,9 @@
   }
 
   /* Header */
+  .text-search {
+    display: none;
+  }
   .search-mobile {
     display: none;
   }
@@ -702,13 +705,11 @@
 
 
 @media (max-width: 740px) {
-  .main-menu {
+
+  .main-menu,.search-container,.icon-search {
     display: none;
   }
-  .search-container {
-    display: none;
-  }
-  .search-mobile {
+  .search-mobile,.text-search {
     display:inline-block;
   }
   .topnav.search-container {

@@ -20,7 +20,8 @@
                     <div class="topnav search-container" ref="searchToggle">
                         
                             <input type="text" v-model="search" placeholder="Search.." name="search">
-                            <button @click="searchPost()" type="button"><i class="fa fa-search"></i></button>
+                            <button @click="searchPost()" type="button" class="icon-seach"><i class="fa fa-search"></i></button>
+                            <button @click="searchPost()" type="button" class="text-seach">Tìm kiếm</button>
                         
                     </div>
                     <ul class="nav navbar-nav flex-row float-right">
