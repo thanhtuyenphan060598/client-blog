@@ -758,9 +758,6 @@
     padding-right: 0px !important;
     padding-left: 0px !important;
   }
-  [row^="data-v-"] {
-    margin-left: 0px !important;
-  }
   .header-article {
     display: block !important;
   }
