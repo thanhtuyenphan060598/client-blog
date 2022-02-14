@@ -11,10 +11,9 @@
                 position : relative !important;
         "
         >
-            <div class="row " 
+            <div class="row" 
             style="
-            height:auto !important;
-            @media (max-width: 740px) {margin-left: 0px !important;}">
+            height:auto !important;">
                 <div class="hidden-md-down post-action ml-auto pr-4">
                     <div class="post-actions d-flex post-action__fixed flex-column align-items-center mx-auto">
                         <div class=" votes votes--side post-actions__vote mb-1 text-center">

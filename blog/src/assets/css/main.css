@@ -772,4 +772,7 @@
   .mb-contents {
     display: none !important;
   }
+  [class^="row[data-v-]"] {
+    margin-left: 0px !important;
+  }
 }
