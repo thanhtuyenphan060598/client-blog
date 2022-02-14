@@ -102,9 +102,9 @@ export default {
     showSearch() {
         let search = this.$refs.searchToggle
         if(search.style.display == "block")
-            search.style.display = 'none !important'
+            search.style.display = 'none'
         else
-            search.style.display = 'block !important'
+            search.style.display = 'block'
 
     },
     //

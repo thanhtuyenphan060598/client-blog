@@ -707,41 +707,42 @@
 @media (max-width: 740px) {
 
   .main-menu,.search-container,.icon-search {
-    display: none ;
+    display: none;
   }
   .search-mobile,.text-search {
-    display:inline-block ;
+    display:inline-block;
   }
   .topnav.search-container {
     position: absolute;
     top: 56px;
-    margin: 0px 0px 0px -50px ;
+    margin: 0px 0px 0px -50px;
     animation : search ease .3s;
   }
   .topnav input[type=text] {
     padding: 8px 153px 5px 38px;
-    width: 100% !important;
+    width: 100%;
   }
   .text-search {
     width: 100%;
   }
   .login-mobile,.register-mobile {
-    width: 75% !important;
+    width: 75%;
   }
   .wrap-categories {
-    padding: 1rem 0rem !important;
+    padding: 1rem 0rem;
   }
   .categories-list {
     overflow: auto;
   }
   .categories-list__mobile {
-    width: 175% !important;
+    width: 175%;
   }
   .categories-mobile {
-    flex-wrap: nowrap !important;
+    flex-wrap: nowrap;
   }
   .categories-mobile > a {
-    padding-right: 20px !important;
+    padding-right: 20px;
+
   }
   
 
