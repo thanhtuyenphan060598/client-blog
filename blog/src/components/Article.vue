@@ -11,7 +11,7 @@
                 position : relative !important;
         "
         >
-            <div class="row article-content-mobile" style="height:auto !important;">
+            <div class="article-content-mobile row " style="height:auto !important;">
                 <div class="hidden-md-down post-action ml-auto pr-4">
                     <div class="post-actions d-flex post-action__fixed flex-column align-items-center mx-auto">
                         <div class=" votes votes--side post-actions__vote mb-1 text-center">
