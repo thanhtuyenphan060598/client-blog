@@ -286,6 +286,9 @@
     color: white;
   }
   /* Post */
+  .content-article {
+    margin-left: 160px !important;
+  }
   .mb-contents{
     font-size:14px;
     line-height: 1.75;
@@ -773,6 +776,9 @@
     display: none !important;
   }
   [class^="row[data-v-]"] {
+    margin-left: 0px !important;
+  }
+  .content-article {
     margin-left: 0px !important;
   }
 }

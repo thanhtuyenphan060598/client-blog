@@ -11,7 +11,7 @@
                 position : relative !important;
         "
         >
-            <div class="row" ref="selectRow" 
+            <div class="row content-article" ref="selectRow" 
             style="height:auto !important;">
                 <div class="hidden-md-down post-action ml-auto pr-4">
                     <div class="post-actions d-flex post-action__fixed flex-column align-items-center mx-auto">
@@ -258,15 +258,7 @@ export default {
                 this.showLogin = true
             }
         },
- //==============================================================
-        removeClass() {
-            let screenMobile = window.screen.width
-            console.log(screenMobile)
-            let elementRow =  this.$refs.selectRow
-            if(screenMobile <= 740) {
-                elementRow.classList.removeClass('row')
-            }
-        }       
+ 
     
     },
 //=========================================================
@@ -274,7 +266,7 @@ export default {
         this.getArticle()
         this.getRate()
         this.checkUserLike()
-        this.removeClass()
+        
     },
     watch: {
         articleShow() {
@@ -328,9 +320,6 @@ export default {
         right:-50px;
         width: 25%;
         height:100%;
-    }
-    .row {
-        margin-left:-160px !important;
     }
     .post_new__sticky {
         position: sticky;
