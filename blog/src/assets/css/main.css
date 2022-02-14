@@ -754,7 +754,10 @@
     height: 30px !important;
     font : 16px / 30px Helvetica, Arial, sans-serif !important;
   }
-  .word-break {
+  .word-break,.post-detail {
     margin-right: 0 !important;
+  }
+  #content {
+    margin-left: 0 !important;
   }
 }
