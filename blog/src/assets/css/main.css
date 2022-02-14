@@ -707,7 +707,7 @@
 @media (max-width: 740px) {
 
   .main-menu,.icon-search,
-  .votes,.hidden-md-down,.post-new__left,.post-contact-mobile {
+  .votes,.hidden-md-down,.post-new__left {
     display: none !important;
   }
   .search-mobile,.text-search {
@@ -769,5 +769,10 @@
   .header-article {
     display: block !important;
   }
-
+  .post-contact-mobile {
+    display: block !important;
+  }
+  .swpider-slide {
+    padding : 0px 0px 0px !important;
+  }
 }
