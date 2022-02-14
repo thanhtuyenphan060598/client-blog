@@ -749,6 +749,7 @@
   }
   .list-post-mobile {
     width: 100% !important;
+    padding: 10px 10px !important;
   }
   .vue-avatar--wrapper {
     width: 30px !important;
@@ -759,6 +760,6 @@
     margin-right: 0 !important;
   }
   .tags {
-    overflow: auto;
+    overflow: auto !important;
   }
 }
