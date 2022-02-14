@@ -771,8 +771,6 @@
   }
   .post-contact-mobile {
     display: block !important;
-  }
-  .swpider-slide {
-    padding : 0px 0px 0px !important;
+    padding : 0px 0px !important;
   }
 }
