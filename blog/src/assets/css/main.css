@@ -762,10 +762,11 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
-  .row {
+  .row[data-v-91c29dba] {
     margin-left: 0 !important;
   }
   .header-article {
     display: block;
   }
+
 }
