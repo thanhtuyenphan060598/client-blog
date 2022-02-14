@@ -713,7 +713,7 @@
   }
   .topnav.search-container {
     position: absolute;
-    top: 54px;
+    top: 56px;
     margin: 0px 0px 0px -50px;
     animation : search ease .3s;
   }

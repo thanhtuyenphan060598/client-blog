@@ -100,7 +100,11 @@ export default {
   methods: {
     showSearch() {
         let search = this.$refs.searchToggle
-        search.style.display = 'block'
+        if(search.style.display == "block")
+            search.style.display = 'none'
+        else
+            search.style.display = 'block'
+
     },
     //
     checkUser() {
