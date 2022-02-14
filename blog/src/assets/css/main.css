@@ -759,5 +759,9 @@
   }
   #content {
     margin-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .row[data-v-f031f602] {
+    margin-left: 0 !important;
   }
 }
