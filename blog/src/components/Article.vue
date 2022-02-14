@@ -321,6 +321,7 @@ export default {
         width: 25%;
         height:100%;
     }
+   
     .post_new__sticky {
         position: sticky;
         top:100px

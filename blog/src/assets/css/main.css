@@ -287,7 +287,7 @@
   }
   /* Post */
   .content-article {
-    margin-left: 160px !important;
+    margin-left: -160px !important;
   }
   .mb-contents{
     font-size:14px;
