@@ -729,13 +729,13 @@
     width: 75%;
   }
   .wrap-categories {
-    padding: 1rem 0rem;
+    padding: 1rem 0rem !important;
   }
   .categories-list {
     overflow: auto;
   }
   .categories-list__mobile {
-    width: 175% !important;
+    width: 200% !important;
   }
   .categories-mobile {
     flex-wrap: nowrap !important;
