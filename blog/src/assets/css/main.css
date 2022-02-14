@@ -772,5 +772,9 @@
   .post-contact-mobile {
     display: block !important;
     padding : 0px 0px !important;
+    margin-bottom: 30px;
+  }
+  .text-contact-post {
+    padding : 0px 0px !important;
   }
 }

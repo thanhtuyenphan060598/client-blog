@@ -91,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <div class="py-3 px-5"><h3>Bài viết liên quan : </h3></div>
+        <div class="text-contact-post py-3 px-5"><h3>Bài viết liên quan : </h3></div>
         <div class="d-flex pb-5 px-5 post-contact-mobile">
                 <PostContacts
                 v-for="(item,index) in postContactShow"
