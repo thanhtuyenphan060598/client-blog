@@ -793,10 +793,16 @@
   .el-aside {
     position: absolute;
     height: 100%;
-    left : -230px;
+    left : -223px;
     transition : left ease .3s;
+    z-index: 1000;
   }
   .el-menu {
     height: 100%;
+  }
+  .fa-chevron-circle-right {
+    position: absolute;
+    top: 330px;
+    left: 223px;
   }
 }
