@@ -781,4 +781,7 @@
   .content-article {
     margin-left: 0px !important;
   }
+  .post-title {
+    font-size: 2.5rem!important;
+  }
 }
