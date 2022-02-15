@@ -787,4 +787,16 @@
   .create-article {
     display: inline-block !important;
   }
+  .viblo-container {
+    position: relative;
+  }
+  .el-aside {
+    position: absolute;
+    height: 100%;
+    left : -230px;
+    transition : left ease .3s;
+  }
+  .el-menu {
+    height: 100%;
+  }
 }
