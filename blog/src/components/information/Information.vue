@@ -3,20 +3,20 @@
         <aside class="el-aside viblo-aside" ref="menuInfor">
             <ul role="menu" class="el-menu el-menu--inline">
                 <li role="menuitem" tabindex="-1" class="el-menu-item is-active">
-                     <router-link :to="{name:'informationuser'}">
+                     <router-link @click.native="hidden()" :to="{name:'informationuser'}">
                          <i class="fa fa-user mr-2"></i>
                          Thông Tin Cá Nhân
                      </router-link>
                 </li>
                 <li role="menuitem" tabindex="-1" class="el-menu-item is-active">
-                     <router-link :to="{name:'password'}">
+                     <router-link @click.native="hidden()" :to="{name:'password'}">
                          <i class="fa fa-address-card mr-2"></i>
                          Đổi mật khẩu
                     </router-link>
                 </li>
                 
             </ul>
-            <span @click="toggleMenuInfo()"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="font-size:30px"></i></span>
+            <span @click.="toggleMenuInfo()"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="font-size:30px"></i></span>
         </aside>
         <div class="el-main ml-5 w-75 p-4">
             <router-view></router-view>
@@ -36,7 +36,11 @@ export default {
             else {
                 menu.style.left = "-180px"
             }
-        }
+        },
+        hidden() {
+        let a = this.$refs.menuInfor
+        a.style.left = '0px'
+    },
     }
 }
 </script>
