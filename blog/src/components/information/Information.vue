@@ -30,11 +30,11 @@ export default {
     methods : {
         toggleMenuInfo() {
             let menu = this.$refs.menuInfor
-            if(menu.style.left == "-223px") {
+            if(menu.style.left == "-180px") {
                 menu.style.left = "0px"
             }
             else {
-                menu.style.left = "-223px"
+                menu.style.left = "-180px"
             }
         }
     }
