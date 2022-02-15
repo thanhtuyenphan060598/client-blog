@@ -1,6 +1,6 @@
 <template>
     <section class="el-container viblo-container d-flex">
-        <aside class="el-aside viblo-aside" refs="menuInfor">
+        <aside class="el-aside viblo-aside" ref="menuInfor">
             <ul role="menu" class="el-menu el-menu--inline">
                 <li role="menuitem" tabindex="-1" class="el-menu-item is-active">
                      <router-link :to="{name:'informationuser'}">
