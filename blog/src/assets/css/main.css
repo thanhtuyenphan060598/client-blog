@@ -746,7 +746,7 @@
     flex-wrap: nowrap !important;
   }
   .categories-mobile > a {
-    padding-right: 20px;
+    margin-right: 20px;
 
   }
   .list-post-mobile {
