@@ -16,7 +16,7 @@
                 </li>
                 
             </ul>
-            <span><i class="fa-solid fa-arrow-right-to-line"></i></span>
+            <span><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
         </aside>
         <div class="el-main ml-5 w-75 p-4">
             <router-view></router-view>
