@@ -28,7 +28,7 @@
 
                     </ul>
                         <div class="my-2 flex-grow-1">
-                        <span v-show="isLoggedIn">   
+                        <span v-if="isLoggedIn">   
                             <router-link :to="{name:'createpost'}" class="btn btn-primary float-right text-uppercase hidden-md-down ">
                                 <i aria-hidden="true" class="fa fa-pencil"></i> 
                                 Viết bài

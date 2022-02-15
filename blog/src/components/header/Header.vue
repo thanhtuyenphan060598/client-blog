@@ -15,12 +15,12 @@
                         
                        
                     </ul>
-                    <span @click="showSearch()" class="search-mobile" type="button"><i class="fa fa-search"></i></span>
-                    <span class="create-article" v-show="isLoggedIn">   
-                        <router-link :to="{name:'createpost'}" class="text-primary">
+                    <span class="create-article">   
+                        <router-link :to="{name:'createpost'}" class="text-primary" v-if="isLoggedIn">
                             <i aria-hidden="true" class="fa fa-pencil"></i>
                         </router-link>
                     </span>
+                    <span @click="showSearch()" class="search-mobile" type="button"><i class="fa fa-search"></i></span>
                     <div class="topnav search-container" ref="searchToggle">
                         
                             <input type="text" v-model="search" placeholder="Search.." name="search">
