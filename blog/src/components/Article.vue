@@ -69,7 +69,7 @@
                 
                 <comment-list
                     @checkLike="userCheckComment()"
-                    :item="articleShow.tags"
+                    :item="articleShow"
                     class="post col-md-9 col-lg-7 mx-auto post-detail noselect"
                     style="height:auto !important;"
                 />
