@@ -103,9 +103,9 @@ export default {
   },
 //=========================================================
   methods: {
-    clickShowMain() {
-        document.querySelector('.main-menu__item').click()
-    },
+    // clickShowMain() {
+    //     document.querySelector('.main-menu__item').click()
+    // },
     showSearch() {
         let search = this.$refs.searchToggle
         if(search.style.display == "block")
