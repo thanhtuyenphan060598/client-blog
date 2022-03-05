@@ -91,6 +91,7 @@ export default {
     },
 //=========================================================
     mounted(){
+       this.clickNav() 
        this.getPostView()
        this.getCategories()
     },
@@ -106,6 +107,9 @@ export default {
 //=========================================================
     methods: {
         // Lấy danh sách đánh giá của nhiều bài viết
+            clickNav() {
+                document.querySelector('.nav-article').click()
+            },
             getPostView() {
             this.axios.get('view/post',
                 {
