@@ -9,7 +9,7 @@
                     <img src="../../assets/img/logo_full.svg" alt="" width="70" height="24">
                     </a>
                     <ul class="main-menu" >
-                        <router-link @click.native="this.$store.dispatch('GetPosts')" class="main-menu__item active" :to="{name:'listpost'}">Bài viết</router-link>
+                        <router-link @click.native="this.$store.dispatch('GetPosts')" ref="showArticle" class="main-menu__item active" :to="{name:'listpost'}">Bài viết</router-link>
                         <router-link class="main-menu__item active" :to="{name:'listpost'}">Hỏi đáp</router-link>
                         <router-link class="main-menu__item active" :to="{name:'listpost'}">Thảo luận</router-link>
                         
@@ -99,9 +99,13 @@ export default {
 //=======================================================================
   mounted() {
       this.checkUser()
+      this.clickShowMain()
   },
 //=========================================================
   methods: {
+    clickShowMain() {
+        console.log(this.$refs.showArticle)
+    },
     showSearch() {
         let search = this.$refs.searchToggle
         if(search.style.display == "block")
