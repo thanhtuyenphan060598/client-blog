@@ -108,7 +108,7 @@ export default {
     methods: {
         // Lấy danh sách đánh giá của nhiều bài viết
             clickNav() {
-                document.querySelector('.nav-article').click()
+                console.log(document.querySelector('.nav-article'))
             },
             getPostView() {
             this.axios.get('view/post',
