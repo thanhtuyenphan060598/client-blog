@@ -16,7 +16,7 @@
                 </li>
                 
             </ul>
-            <span @click="toggleMenuInfo()"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="font-size:30px;display:none"></i></span>
+            <span @click="toggleMenuInfo()" style="display:none;"><i class="fa fa-chevron-circle-right" aria-hidden="true" style="font-size:30px;display:none"></i></span>
         </aside>
         <div class="el-main ml-5 w-75 p-4">
             <router-view></router-view>
