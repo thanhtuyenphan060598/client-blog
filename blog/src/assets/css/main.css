@@ -116,7 +116,7 @@
   }
 
   /* Header */
-  .text-search,.create-article {
+  .text-search,.create-article,.fa-chevron-circle-right {
     display: none;
   }
   .search-mobile {
@@ -566,9 +566,6 @@
     display: block !important;
   }
   /* Information */
-  .fa-chevron-circle-right {
-    display: none;
-  }
   .el-menu {
     border-right: 1px solid #e6e6e6;
     list-style: none;
