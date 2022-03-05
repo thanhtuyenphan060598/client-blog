@@ -104,7 +104,7 @@ export default {
 //=========================================================
   methods: {
     clickShowMain() {
-        this.$refs.showArticle.click();
+        console.log(document.querySelector('.main-menu__item'))
     },
     showSearch() {
         let search = this.$refs.searchToggle
