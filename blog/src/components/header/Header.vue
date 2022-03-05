@@ -104,7 +104,7 @@ export default {
 //=========================================================
   methods: {
     clickShowMain() {
-        console.log(this.$refs.showArticle)
+        this.$refs.showArticle.click();
     },
     showSearch() {
         let search = this.$refs.searchToggle
